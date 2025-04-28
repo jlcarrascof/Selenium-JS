@@ -1,0 +1,23 @@
+{
+  "name": "selenium-js",
+  "version": "1.0.0",
+  "description": "Using tests with Selenium with JavaScript",
+  "homepage": "https://github.com/jlcarrascof/Selenium-JS#readme",
+  "bugs": {
+    "url": "https://github.com/jlcarrascof/Selenium-JS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlcarrascof/Selenium-JS.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.31.0"
+  }
+}
