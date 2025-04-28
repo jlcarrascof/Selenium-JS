@@ -5,7 +5,7 @@ const { Builder, By, until, Key } = require('selenium-webdriver');
   try {
     await driver.get('http://www.google.com');
     await driver.findElement(By.name('q')).sendKeys('Selenium', Key.RETURN);
-    await driver.wait(until.titleContains('Selenium'), 1000);
+    await driver.wait(until.titleContains('Selenium'), 5000);
   } finally {
     await driver.quit();
   }
