@@ -9,6 +9,7 @@ const { Builder, By, until, Key } = require('selenium-webdriver');
 
     await new Promise(resolve => setTimeout(resolve, 3000));
   } finally {
+    await new Promise(resolve => setTimeout(resolve, 3000));
     await driver.quit();
   }
 })();
