@@ -14,3 +14,5 @@ await driver.get('http://lambdatest.github.io/sample-todo-app/');
 // Close the browser
 
 }
+
+example();
